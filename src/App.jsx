@@ -4,7 +4,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 
 import CategoryPage from "./components/CategoryPage";
-import NewsletterSection from "./components/NewsletterSection";
+
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import CosmeticProductsSection from "./components/CosmeticProductsSection";
@@ -125,7 +125,7 @@ export default function App() {
                   <VogueBanner />
                   <EditorialGrid />
                   
-                  <NewsletterSection />
+                  
                 </PageTransition>
               }
             />
